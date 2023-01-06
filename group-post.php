@@ -1,3 +1,10 @@
+add_action('after_setup_theme', 'bgbdj_theme_setup');
+function bgbdj_theme_setup()
+{
+  add_image_size('popular_thumb', 360, 240, true);
+  add_image_size('related_thumb', 274, 168, true);
+}
+
 function complex_posts()
 {
 	ob_start();
