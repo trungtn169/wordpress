@@ -1,3 +1,4 @@
+<?php
 function menu_post_per_page($query)
 {
 	global $ptm_options_posts_per_page;
